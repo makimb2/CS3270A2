@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/fragment_a"
+        android:id="@+id/fragmentContainer1"
+        android:layout_marginBottom="450dp"
+        android:background="#66FF33" />
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.celeste.cs3270a2.FragmentB">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/fragment_b"
+            android:id="@+id/fragmentContainer2"
+            android:layout_marginTop="116dp"
+            android:layout_marginBottom="175dp"
+            android:layout_marginRight="200dp"
+            android:background="#7070FF" />
+
+</FrameLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.celeste.cs3270a2.FragmentC">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/fragment_c"
+            android:id="@+id/fragmentContainer3"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginBottom="300dp"
+            android:background="#FFCC00" />
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.example.celeste.cs3270a2.FragmentD"
+            android:layout_gravity="center_horizontal|bottom"
+            android:id="@+id/load">
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="127dp"
+                android:text="@string/fragment_d"
+                android:id="@+id/fragmentContainer4"
+                android:layout_marginTop="265dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginBottom="175dp"
+                android:background="#FF1919" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/load_fragment2"
+            android:id="@+id/loadFrag2"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="100dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/load_fragment3"
+            android:id="@+id/loadFrag3"
+            android:layout_gravity="center_horizontal|bottom|left" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@string/switch_button"
+            android:id="@+id/switchButton"
+            android:layout_gravity="center_horizontal|bottom|right" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loadFrag4"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="100dp"
+            android:text="@string/load_fragment4" />
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
